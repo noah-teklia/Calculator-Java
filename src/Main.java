@@ -7,15 +7,8 @@ public class Main {
         System.out.printf("Hello and welcome!");
         double x=addition(5, 7);
         System.out.println("x: "+ x);
-
-
-
     }
-
     public static double addition(double a, double b) {
-
-
-
         return a + b;
     }
 }
