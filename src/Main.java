@@ -14,6 +14,9 @@ public class Main {
         double Multiplication = multiply(4, 7);
         System.out.println("Multiplication: " + Multiplication);
 
+        double Division=divide(100,5);
+        System.out.println("Division: "+Division);
+
     }
 
     public static double addition(double a, double b) {
@@ -26,5 +29,8 @@ public class Main {
 
     public static double multiply(double a, double b) {
         return a * b;
+    }
+    public static double divide(double a ,double b){
+        return a/b;
     }
 }
