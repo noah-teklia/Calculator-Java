@@ -1,29 +1,40 @@
-### IntelliJ IDEA ###
+# Ignore IntelliJ IDEA-specific files
+.idea/
+*.iml
+*.iws
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+*.ipr
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Ignore build directories
+/target/
+/build/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Ignore Maven / Gradle dependency cache
+.mvn/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
 
-### VS Code ###
-.vscode/
+# Ignore compiled class files
+*.class
+*.jar
+*.war
+*.ear
 
-### Mac OS ###
-.DS_Store
+# Ignore logs and temp files
+*.log
+hs_err_pid*
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Ignore environment-specific config
+.env
+*.properties
+
+# Ignore coverage and test reports
+/site/
+jacoco.exec
+*.ec
+*.em
+/coverage/
