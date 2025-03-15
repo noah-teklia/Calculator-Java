@@ -7,8 +7,13 @@ public class Main {
         System.out.printf("Hello and welcome!");
         double x = addition(5, 7);
         System.out.println("x: " + x);
+
         double Subtraction = subtract(20, 15);
         System.out.print("Subtraction: " + Subtraction);
+
+        double Multiplication = multiply(4, 7);
+        System.out.println("Multiplication: " + Multiplication);
+
     }
 
     public static double addition(double a, double b) {
@@ -17,5 +22,9 @@ public class Main {
 
     public static double subtract(double a, double b) {
         return a - b;
+    }
+
+    public static double multiply(double a, double b) {
+        return a / b;
     }
 }
